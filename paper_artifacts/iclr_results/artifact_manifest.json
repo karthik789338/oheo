@@ -1,0 +1,42 @@
+{
+  "artifact_set": "ICLR results tables and figures",
+  "experimental_campaign_status": "CLOSED",
+  "main_research_questions": [
+    "RQ1 Benchmark Validity and State Identifiability",
+    "RQ2 Predictive Learnability under Distribution Shift",
+    "RQ3 Identifiability versus Process-Memory Emergence"
+  ],
+  "main_scientific_message": "Highly identifiable physical states do not necessarily induce the corresponding symbolic process representation under predictive learning.",
+  "figure_policy": {
+    "overall_title": false,
+    "embedded_caption": false,
+    "axis_titles": true,
+    "png_dpi": 600,
+    "pdf_vector_output": true
+  },
+  "tables": [
+    "table_01_benchmark_validity",
+    "table_02_primary_joint_ood_prediction",
+    "table_02_primary_confirmatory_test",
+    "table_03_identifiability_representation_gap",
+    "table_04_predictive_winner_frequency"
+  ],
+  "figures": [
+    "fig_01_identifiability_representation_gap",
+    "fig_02_joint_ood_prediction",
+    "fig_03_state_path_recovery"
+  ],
+  "source_hashes": {
+    "outputs/phase4gr3g2e_tier_c_v4_final_freeze/phase4gr3g2e_final_summary.json": "eda4debde11a10249b2c30345cc1c11dcc77cf8884c4b86e9ff85eab6c9c33df",
+    "outputs/phase4br3_tier_c_v4_development_fields/phase4br3_field_summary.json": "800b7fbb655d6a7a89984eb9345ec21470b0fe5cf9a9483acca34a065be74613",
+    "outputs/phase4br3_tier_c_v4_development_fields/independent_morphology_summary.json": "42b7eaf8f46c54faa50608aeecab2a56234627b87fe61a5c80ff4d2283aa18f8",
+    "outputs/phase4cr3_tier_c_v4_audit/state_decoder_summary.json": "9b73022af284b117815474c2a235721df13020799c98f6ba6d0bf3472840a42e",
+    "outputs/phase4cr3_tier_c_v4_audit/global_statistics_summary.json": "4db8d3a6dce20352a8b05178dff95622f28b84def8242cb9a09af882ca240b50",
+    "outputs/phase4cr3_tier_c_v4_audit/affine_shortcut_summary.json": "dc7ecc912cae97218741e407756f4ea2c6737f239eeee6c9da8c566dc210c265",
+    "outputs/phase4gr3g2dr1_tier_c_v4_exact_phase3g_structural/state_path_condition_summary.csv": "ed7ea3c508cd7dcbea242dc83f9df01afa91d1b045065569a2423358bc94d362"
+  },
+  "no_training_performed": true,
+  "no_tuning_performed": true,
+  "no_test_reopening": true,
+  "paper_artifact_generation_only": true
+}

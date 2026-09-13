@@ -1,0 +1,8 @@
+Model,Role,NoisyTargetRolloutMSE
+B0,Persistence baseline,1.216326
+B1,Learned baseline,1.022196
+B2,Learned baseline,1.030627
+B3,Learned baseline; lowest test MSE,0.994846
+B4,Frozen confirmatory comparator,1.000112
+B5,Learned baseline,1.034443
+OCM,Primary model,1.039329

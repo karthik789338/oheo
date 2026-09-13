@@ -1,0 +1,12 @@
+Property,Metric,Result,Reference
+Characteristic-length separation,Mean coarse/fine characteristic-length ratio,2.844,Frozen morphology gate passed
+Characteristic-length separation,Minimum coarse/fine characteristic-length ratio,2.535,Frozen morphology gate passed
+Interface morphology,Mean coarse/fine interface-density ratio,0.471,Frozen morphology gate passed
+Carrier-scale decoupling,Base-length/interface-ratio Spearman rho,-0.0760,Near-zero final Tier-C-v4 association
+Eight-state identifiability,Mean validation state accuracy,98.31%,Required >= 80%
+Eight-state identifiability,Worst-seed validation state accuracy,97.66%,Required >= 75%
+Coarsening-factor identifiability,Mean validation accuracy,99.87%,Required >= 90%
+Global-statistics shortcut control,28-feature validation accuracy,12.50%,Required < 95%
+Affine shortcut control,Validation continuous latent MSE,10.4335,Required > 1e-08
+Affine shortcut control,Exact primitive recovery,40.49%,Required < 100%
+Affine shortcut control,Validation carriers exact on all 104 transformations,0.00%,Required < 100%
