@@ -1,4 +1,26 @@
+# Python environments
 .venv/
 .venv-cu126/
 __pycache__/
+*.pyc
+
+# Large experiment outputs
+outputs/
+
+# Logs
+*.log
+
+# Model/data artifacts
+*.pt
+*.pth
+*.npy
+*.npz
+*.tar.gz
+
+# Backup/intermediate source files
+*.before_*
+*.before*
+*~
+
+# Misc
 =
